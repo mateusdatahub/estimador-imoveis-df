@@ -1,0 +1,32 @@
+{
+    "model_name": "RandomForestRegressor_pipeline",
+    "target": "LOG_VALOR_M2",
+    "features": [
+        "num__AREA",
+        "num__QUARTOS",
+        "cat__BAIRRO_TRATADO_AGUAS CLARAS",
+        "cat__BAIRRO_TRATADO_ARNIQUEIRA",
+        "cat__BAIRRO_TRATADO_ASA NORTE",
+        "cat__BAIRRO_TRATADO_GUARA",
+        "cat__BAIRRO_TRATADO_JARDIM BOTANICO",
+        "cat__BAIRRO_TRATADO_NOROESTE",
+        "cat__BAIRRO_TRATADO_OUTROS",
+        "cat__BAIRRO_TRATADO_SAMAMBAIA",
+        "cat__BAIRRO_TRATADO_SOBRADINHO",
+        "cat__BAIRRO_TRATADO_TAGUATINGA",
+        "cat__BAIRRO_TRATADO_VICENTE PIRES"
+    ],
+    "best_params": {
+        "model__max_depth": 14,
+        "model__max_features": 0.4183931771007313,
+        "model__min_samples_leaf": 1,
+        "model__min_samples_split": 15,
+        "model__n_estimators": 427
+    },
+    "r2_cv": 0.6318333032530783,
+    "r2_train": 0.709996616681199,
+    "r2_test": 0.6324563178683249,
+    "mae": 1689.043236331991,
+    "rmse": 2378.78454412559,
+    "trained_at": "2026-02-04 21:24:38"
+}
