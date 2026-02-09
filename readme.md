@@ -61,8 +61,7 @@ Durante o processo, foram enfrentados desafios comuns em dados reais, como:
 - Correção de inconsistências
 
 - Preparação do dataset final
-<br>
-<br>
+- 
 #### 2️ Análise Exploratória (EDA)
 
 📓 `02_eda_analise_exploratoria.ipynb`
@@ -74,8 +73,7 @@ Durante o processo, foram enfrentados desafios comuns em dados reais, como:
 - Avaliação da influência de área, quartos e localização
 
 - Identificação de padrões do mercado
-<br>
-<br>
+
 #### 3️ Modelagem Preditiva
 
 📓 `03_modelagem.ipynb`
@@ -98,6 +96,9 @@ desempenho frente à variabilidade dos dados.
 O modelo treinado foi integrado a uma aplicação web desenvolvida em Streamlit, permitindo a interação direta com o usuário e a visualização prática dos resultados.
 
 📄 Veja detalhes no README específico do app.
+
+## 🌐 Aplicação Online
+https://estimador-imoveis-df-vbrdam8od8harizn2dvond.streamlit.app/
 
 ## 🧑🏻‍💻 Tecnologias Utilizadas
 
